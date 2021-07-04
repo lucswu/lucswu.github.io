@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "Welcome to Lucas's New Site!"
+date: 2021-07-01
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Finally put together a website for myself, using a very helpful tutorial, that can be found at http://jmcglone.com/guides/github-pages/. I'm not sure if that will produce a link, and if it doesn't, perhaps I will fix it in the future. More styling to come!
