@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Lucas's New Site!"
+title: "Early Fixes"
 date: 2021-07-03
 ---
 
