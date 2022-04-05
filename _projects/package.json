@@ -1,0 +1,17 @@
+{
+  "name": "moving-bubbles",
+  "version": "1.0.0",
+  "description": "This visualization tracks a sample of couples in the 1970's to show how long they transition through relationship stages. It is wholly based on Nathan Yau's [The Stages of Relationships, Distributed](https://flowingdata.com/2019/03/26/relationship-stages/) and his companion tutorial [How to Make a Moving Bubble Chart, Based on a Dataset](https://flowingdata.com/2019/04/22/moving-bubbles-tutorial-v2/) (*note: you'll need a [FlowingData membership](https://flowingdata.com/membership/) to view this tutorial.*)",
+  "main": "main.js",
+  "dependencies": {
+    "d3": "^7.4.2",
+    "gsap": "^3.10.2",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
