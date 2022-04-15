@@ -1,0 +1,9 @@
+This visualization tracks a sample of couples in the 1970's to show how long they transition through relationship stages. It is wholly based on Nathan Yau's [The Stages of Relationships, Distributed](https://flowingdata.com/2019/03/26/relationship-stages/) and his companion tutorial [How to Make a Moving Bubble Chart, Based on a Dataset](https://flowingdata.com/2019/04/22/moving-bubbles-tutorial-v2/) (*note: you'll need a [FlowingData membership](https://flowingdata.com/membership/) to view this tutorial.*)
+
+Nathan's example uses D3.js to get the data, render the text and circles, simulate physical forces, apply transitions and animations, and update DOM elements. This example uses the browser's native [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to get the data, [Vue.js instance lifecycle statges](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram) to update the data and render the circles and text; [GSAP](https://greensock.com/svg-tips) to transition and animate SVG circles and text; and finally, D3.js to simulate physical forces on the circles.
+
+The idea here is twofold: 1) to use the latest JavaScript frameworks to create a fast, responsive, and nimble visualization application and 2) to ask of these frameworks to do what they do best: D3.js to represent geometric and mathematical abstractions as SVG elements; Vue.js to manage the application's state via a virtual DOM; and GSAP to quickly transition and animate.
+
+To the extent possible, I try to avoid D3.js [General Update Pattern](https://bl.ocks.org/mbostock/3808234) since it operates on the DOM directly, which in theory can be more computationally expensive than doing the same through a virtual DOM.
+
+Colors chosen by my daughter Eliza.
