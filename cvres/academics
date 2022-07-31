@@ -1,8 +1,0 @@
----
-layout: default
-title: Academics
----
-	<h1>{{ page.title }}</h1>
-	<p> still learning html, but you can find my resume at https://drive.google.com/file/d/1H0tImZcO3FBm0ukG66PFmoX5j75bm09V/view?usp=sharing.
-  you can also look for my linkedin here: https://www.linkedin.com/in/llucaswu/.
-  cv to come later. </p>
