@@ -3,12 +3,18 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.css";
-import Counters from "./components/counters";
-import Navbar from "./components/navbar";
+// import "bootstrap/dist/css/bootstrap.css";
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from "./theme";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <App />
+  </ThemeProvider>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
