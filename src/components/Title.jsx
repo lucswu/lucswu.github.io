@@ -12,12 +12,13 @@ class Title extends Component {
               fontSize: "100px",
               fontWeight: "700",
               position: "absolute",
-              top: "60vh",
+              top: "50vh",
               left: "8%",
               color: "#FFFFFF",
             }}
           >
-            Hi, there! I'm Lucas Wu.
+            Hi, there!
+            <Typist.Delay ms={500} /> I'm Lucas Wu.
           </span>
         </Typist>
       </React.Fragment>

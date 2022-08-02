@@ -7,12 +7,14 @@ import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "./theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <App />
+    <Footer />
   </ThemeProvider>
 );
 

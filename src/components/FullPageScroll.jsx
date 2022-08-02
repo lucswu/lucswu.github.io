@@ -4,7 +4,7 @@ import Fullpage, {
   FullpageSection,
   FullpageNavigation,
 } from "@ap.cx/react-fullpage";
-import NavBar from "./navbar";
+import NavBar from "./Navbar";
 import Title from "./Title";
 
 const FullPageScroll = () => {
@@ -27,11 +27,19 @@ const FullPageScroll = () => {
         </FullpageSection>
 
         <FullpageSection style={{ ...SectionStyle, backgroundColor: "white" }}>
-          <h1>Section 2</h1>
+          <h1>About Me</h1>
         </FullpageSection>
 
-        <FullpageSection style={{ ...SectionStyle }}>
-          <h1>Section 3</h1>
+        <FullpageSection style={{ ...SectionStyle, backgroundColor: "black" }}>
+          <h1 style={{ color: "#FFFFFF" }}>Resume</h1>
+        </FullpageSection>
+
+        <FullpageSection style={{ ...SectionStyle, backgroundColor: "white" }}>
+          <h1 style={{ color: "#000000" }}>Projects</h1>
+        </FullpageSection>
+
+        <FullpageSection style={{ ...SectionStyle, backgroundColor: "black" }}>
+          <h1 style={{ color: "#FFFFFF" }}>Blog</h1>
         </FullpageSection>
       </FullPageSections>
     </Fullpage>
