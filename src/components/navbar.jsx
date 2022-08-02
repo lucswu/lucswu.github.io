@@ -11,11 +11,21 @@ class NavBar extends Component {
         justifyContent="center"
         alignItem="center"
       >
-        <Button color="primary">Home</Button>
-        <Button color="primary">About</Button>
-        <Button color="primary">Resume</Button>
-        <Button color="primary">Projects</Button>
-        <Button color="primary">Blog</Button>
+        <Button color="primary">
+          <h1>Home</h1>
+        </Button>
+        <Button color="primary">
+          <h1>About</h1>
+        </Button>
+        <Button color="primary">
+          <h1>Resume</h1>
+        </Button>
+        <Button color="primary">
+          <h1>Projects</h1>
+        </Button>
+        <Button color="primary">
+          <h1>Blog</h1>
+        </Button>
       </Stack>
     );
   }

@@ -5,10 +5,7 @@ import Fullpage, {
   FullpageNavigation,
 } from "@ap.cx/react-fullpage";
 import NavBar from "./navbar";
-import Typist from "react-typist";
-import "../Typist.css";
-import sec2 from "../img/sec2.jpg";
-import { containerClasses } from "@mui/material";
+import Title from "./Title";
 
 const FullPageScroll = () => {
   const SectionStyle = {
@@ -23,22 +20,18 @@ const FullPageScroll = () => {
     <Fullpage>
       <FullpageNavigation />
       <FullPageSections>
-        <FullpageSection style={{ SectionStyle }}>
+        <FullpageSection style={{ SectionStyle, backgroundColor: "black" }}>
           <NavBar />
           <br></br>
-          <Typist>
-            <h1>Hi! I'm Lucas Wu!</h1>
-          </Typist>
+          <Title />
         </FullpageSection>
 
-        <FullpageSection
-          style={{ ...SectionStyle, backgroundImage: `url(${sec2})` }}
-        >
+        <FullpageSection style={{ ...SectionStyle, backgroundColor: "white" }}>
           <h1>Section 2</h1>
         </FullpageSection>
 
-        <FullpageSection style={{ SectionStyle }}>
-          <h1>Section 2</h1>
+        <FullpageSection style={{ ...SectionStyle }}>
+          <h1>Section 3</h1>
         </FullpageSection>
       </FullPageSections>
     </Fullpage>
