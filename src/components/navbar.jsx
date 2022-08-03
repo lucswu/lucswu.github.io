@@ -10,6 +10,8 @@ class NavBar extends Component {
         direction="row"
         justifyContent="center"
         alignItem="center"
+        backgroundColor="black"
+        height="10vh"
       >
         <Button color="primary">
           <h1>Home</h1>
