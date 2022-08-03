@@ -65,7 +65,7 @@ export default function Footer(props) {
           </Link>
           <Box component="nav" className={classes.footerNav}>
             <Link
-              href="#"
+              href="/"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -73,7 +73,7 @@ export default function Footer(props) {
               {content["link1"]}
             </Link>
             <Link
-              href="#"
+              href="/About"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -81,7 +81,7 @@ export default function Footer(props) {
               {content["link2"]}
             </Link>
             <Link
-              href="#"
+              href="/Resume"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -89,7 +89,7 @@ export default function Footer(props) {
               {content["link3"]}
             </Link>
             <Link
-              href="#"
+              href="/Projects"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -97,7 +97,7 @@ export default function Footer(props) {
               {content["link4"]}
             </Link>
             <Link
-              href="#"
+              href="/Blog"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}

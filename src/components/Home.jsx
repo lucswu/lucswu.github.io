@@ -35,18 +35,6 @@ class Home extends Component {
         <div style={{ ...SectionStyle, backgroundColor: "black" }}>
           <h1 style={{ color: "#FFFFFF" }}>Blog</h1>
         </div>
-
-        <div
-          style={{
-            height: "10vh",
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <Footer />
-        </div>
       </React.Fragment>
     );
   }
