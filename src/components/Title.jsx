@@ -34,18 +34,10 @@ class Title extends Component {
           >
             <Typist.Delay ms={500} />
             <h1>
-              Check out my projects{" "}
-              <Link to="/Projects" style={{ textDecoration: "none" }}>
-                here
-              </Link>
-              .
+              Check out my projects <Link to="/Projects">here</Link>.
             </h1>
             <h1>
-              View my resume{" "}
-              <Link to="/Resume" style={{ textDecoration: "none" }}>
-                here
-              </Link>
-              .
+              View my resume <Link to="/Resume">here</Link>.
             </h1>
           </span>
         </Typist>
