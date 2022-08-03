@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typist from "react-typist";
+import { Link } from "react-router-dom";
 import "../Typist.css";
 
 class Title extends Component {
@@ -32,8 +33,12 @@ class Title extends Component {
             }}
           >
             <Typist.Delay ms={500} />
-            <h1>Check out my projects here.</h1>
-            <h1>View my resume here.</h1>
+            <h1>
+              Check out my projects <Link to="/Projects">here</Link>.
+            </h1>
+            <h1>
+              View my resume <Link to="/Resume">here</Link>.
+            </h1>
           </span>
         </Typist>
       </React.Fragment>

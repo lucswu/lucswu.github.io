@@ -10,7 +10,7 @@ const SectionStyle = {
   alignItems: "center",
 };
 
-class MainPage extends Component {
+class Home extends Component {
   render() {
     return (
       <React.Fragment>
@@ -52,4 +52,4 @@ class MainPage extends Component {
   }
 }
 
-export default MainPage;
+export default Home;
