@@ -10,12 +10,12 @@ class Title extends Component {
         <Typist>
           <span
             style={{
-              fontSize: "120px",
+              fontSize: "10vh",
               fontWeight: "700",
               position: "absolute",
-              top: "60vh",
+              top: "50vh",
               left: "5%",
-              color: "#FFFFFF",
+              color: "black",
             }}
           >
             Hi, there!
@@ -23,21 +23,29 @@ class Title extends Component {
           </span>
           <span
             style={{
-              fontSize: "15px",
+              fontSize: "2vh",
               fontWeight: "100",
               position: "absolute",
               top: "75vh",
               left: "5%",
-              color: "#FFFFFF",
+              color: "black",
               margin: "0",
             }}
           >
             <Typist.Delay ms={500} />
             <h1>
-              Check out my projects <Link to="/Projects">here</Link>.
+              Check out my projects{" "}
+              <Link to="/Projects" style={{ textDecoration: "none" }}>
+                here
+              </Link>
+              .
             </h1>
             <h1>
-              View my resume <Link to="/Resume">here</Link>.
+              View my resume{" "}
+              <Link to="/Resume" style={{ textDecoration: "none" }}>
+                here
+              </Link>
+              .
             </h1>
           </span>
         </Typist>

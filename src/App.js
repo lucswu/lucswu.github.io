@@ -1,10 +1,8 @@
 import "./App.css";
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Stack from "@mui/material/Stack";
-import { Button } from "@material-ui/core";
-import { Typography } from "@mui/material";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import NavBar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Resume from "./components/Resume";
@@ -18,40 +16,7 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <div>
-            <Stack
-              spacing={20}
-              direction="row"
-              justifyContent="center"
-              alignItem="center"
-              backgroundColor="black"
-              height="10vh"
-            >
-              <Link to="/">
-                <Button color="primary">
-                  <h1>Home</h1>
-                </Button>
-              </Link>
-              <Link to="/about">
-                <Button color="primary">
-                  <h1>About</h1>
-                </Button>
-              </Link>
-              <Link to="/resume">
-                <Button color="primary">
-                  <h1>Resume</h1>
-                </Button>
-              </Link>
-              <Link to="/projects">
-                <Button color="primary">
-                  <h1>Project</h1>
-                </Button>
-              </Link>
-              <Link to="/blog">
-                <Button color="primary">
-                  <h1>Blog</h1>
-                </Button>
-              </Link>
-            </Stack>
+            <NavBar />
 
             <Routes>
               <Route exact path="/" element={<Home />} />
