@@ -17,7 +17,7 @@ class Home extends Component {
           <Title />
         </div>
 
-        <div style={{ ...SectionStyle, backgroundColor: "black" }}>
+        <div style={{ ...SectionStyle, backgroundColor: "#333333" }}>
           <h1 style={{ color: "white" }}>About Me</h1>
         </div>
 
