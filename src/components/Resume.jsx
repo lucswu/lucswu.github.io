@@ -15,8 +15,17 @@ class Resume extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{ ...SectionStyle, backgroundColor: "white" }}>
-          <Document file="../Res.pdf" onLoadError={console.error} />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "white",
+          }}
+        >
+          <Document file="./Res.pdf" onLoadError={console.error}>
+            <Page pageNumber={1} width="1200" />
+          </Document>
         </div>
       </React.Fragment>
     );

@@ -18,19 +18,19 @@ class Home extends Component {
         </div>
 
         <div style={{ ...SectionStyle, backgroundColor: "#333333" }}>
-          <h1 style={{ color: "white" }}>About Me</h1>
+          <h1 style={{ color: "white" }}>About Me - WIP</h1>
         </div>
 
         <div style={{ ...SectionStyle, backgroundColor: "white" }}>
-          <h1 style={{ color: "black" }}>Resume</h1>
+          <h1 style={{ color: "black" }}>Resume - WIP</h1>
         </div>
 
-        <div style={{ ...SectionStyle, backgroundColor: "black" }}>
-          <h1 style={{ color: "white" }}>Projects</h1>
+        <div style={{ ...SectionStyle, backgroundColor: "#333333" }}>
+          <h1 style={{ color: "white" }}>Projects - WIP</h1>
         </div>
 
         <div style={{ ...SectionStyle, backgroundColor: "white" }}>
-          <h1 style={{ color: "#black" }}>Blog</h1>
+          <h1 style={{ color: "#black" }}>Blog - WIP</h1>
         </div>
       </React.Fragment>
     );
