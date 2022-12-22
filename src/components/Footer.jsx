@@ -73,7 +73,7 @@ export default function Footer(props) {
               {content["link1"]}
             </Link>
             <Link
-              href="/About"
+              href="/about"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -81,7 +81,7 @@ export default function Footer(props) {
               {content["link2"]}
             </Link>
             <Link
-              href="/Resume"
+              href="/resume"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -89,7 +89,7 @@ export default function Footer(props) {
               {content["link3"]}
             </Link>
             <Link
-              href="/Projects"
+              href="/projects"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
@@ -97,7 +97,7 @@ export default function Footer(props) {
               {content["link4"]}
             </Link>
             <Link
-              href="/Blog"
+              href="/blog"
               variant="body1"
               color="textPrimary"
               className={classes.footerLink}
