@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Title from "./Title";
+import penn from "../img/penn.jpg";
 
 const SectionStyle = {
   height: "100vh",
@@ -17,8 +18,24 @@ class Home extends Component {
           <Title />
         </div>
 
-        <div style={{ ...SectionStyle, backgroundColor: "#333333" }}>
-          <h1 style={{ color: "white" }}>About Me - WIP</h1>
+        <div style={{ height: "100vh", width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-around", alignItems: "center", backgroundColor: "#333333" }}>
+          <div style={{padding:'10em'}}>
+          <h1 style={{ color: "white", fontSize: "4vw"}}>About Me</h1>
+          <p style={{color: "white", fontSize: "2vw", fontFamily: 'EB Garamond'}}>
+            Hi! I'm Lucas, a freshman at the University of Pennsylvania studying Finance and Computer Science in the M&T Program, with an aspiration to submatriculate in Mathematics.
+            I'm interested in Quantitative Finance, particularly trading and software development, as well as C++ Development and Machine Learning.
+
+          </p>
+          </div>
+          <img
+          style={{
+            width:"50vw",
+            padding:"10em"
+
+          }}
+            src={penn}
+            alt="penn"
+          />
         </div>
 
         <div style={{ ...SectionStyle, backgroundColor: "white" }}>

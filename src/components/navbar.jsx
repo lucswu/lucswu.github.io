@@ -31,7 +31,7 @@ class NavBar extends Component {
         </Link>
         <Link to="/projects" style={{ textDecoration: "none" }}>
           <Button color="primary">
-            <h1>Project</h1>
+            <h1>Projects</h1>
           </Button>
         </Link>
         <Link to="/blog" style={{ textDecoration: "none" }}>
