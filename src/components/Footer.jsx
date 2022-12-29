@@ -40,7 +40,7 @@ export default function Footer(props) {
   const classes = useStyles();
 
   const content = {
-    copy: "Built by Lucas Wu using React and Material UI. Updated August 2022.",
+    copy: "Built by Lucas Wu using React and Material UI. Updated December 2022.",
     link1: "Home",
     link2: "About Me",
     link3: "Resume",

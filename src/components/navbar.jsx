@@ -16,27 +16,27 @@ class NavBar extends Component {
       >
         <Link to="/" style={{ textDecoration: "none" }}>
           <Button color="primary">
-            <h1>Home</h1>
+            <h1 style={{ fontFamily: "EB Garamond" }}>Home</h1>
           </Button>
         </Link>
         <Link to="/about" style={{ textDecoration: "none" }}>
           <Button color="primary">
-            <h1>About</h1>
+            <h1 style={{ fontFamily: "EB Garamond" }}>About</h1>
           </Button>
         </Link>
         <Link to="/resume" style={{ textDecoration: "none" }}>
           <Button color="primary">
-            <h1>Resume</h1>
+            <h1 style={{ fontFamily: "EB Garamond" }}>Resume</h1>
           </Button>
         </Link>
         <Link to="/projects" style={{ textDecoration: "none" }}>
           <Button color="primary">
-            <h1>Projects</h1>
+            <h1 style={{ fontFamily: "EB Garamond" }}>Projects</h1>
           </Button>
         </Link>
         <Link to="/blog" style={{ textDecoration: "none" }}>
           <Button color="primary">
-            <h1>Blog</h1>
+            <h1 style={{ fontFamily: "EB Garamond" }}>Blog</h1>
           </Button>
         </Link>
       </Stack>

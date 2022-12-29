@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Router>
-          <div>
+          <div style={{fontFamily: "EB Garamond"}}>
             <NavBar />
 
             <Routes>
