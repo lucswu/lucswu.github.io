@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import penn from "../img/penn.jpg";
 
 const SectionStyle = {
-  height: "100vh",
   width: "100%",
   display: "flex",
   flexDirection: "row",
@@ -22,7 +21,7 @@ class About extends Component {
             backgroundColor: "white",
           }}
         >
-          <div style={{ padding: "10em" }}>
+          <div style={{ height: "100%", padding: "10em" }}>
             <h1 style={{ fontSize: "4vw" }}>About Me</h1>
             <p
               style={{
