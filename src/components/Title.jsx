@@ -3,6 +3,7 @@ import Typist from "react-typist";
 import { Link } from "react-router-dom";
 import "../Typist.css";
 import { useSpring, animated, config } from "react-spring";
+import Res from "../Res2.pdf";
 
 import down from "../img/Arrow-down.svg";
 
@@ -51,7 +52,11 @@ export default function Title() {
             Check out my projects <Link to="/Projects">here</Link>.
           </h1>
           <h1>
-            View my resume <Link to="/Resume">here</Link>.
+            View my resume{" "}
+            <a href={Res} without rel="noopener noreferrer" target="_blank">
+              here
+            </a>
+            .
           </h1>
         </span>
       </Typist>

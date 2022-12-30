@@ -32,7 +32,7 @@ class Home extends Component {
             backgroundColor: "#333333",
           }}
         >
-          <div style={{ padding: "10em" }}>
+          <div style={{ padding: "5em" }}>
             <h1 style={{ color: "white", fontSize: "4vw" }}>
               <Link
                 style={{ color: "white", fontFamily: "EB Garamond" }}
@@ -57,8 +57,8 @@ class Home extends Component {
           </div>
           <img
             style={{
-              width: "50vw",
-              padding: "10em",
+              width: "100vw",
+              padding: "5em",
             }}
             src={penn}
             alt="penn"
@@ -79,13 +79,13 @@ class Home extends Component {
           <img
             style={{
               width: "50vw",
-              padding: "10em",
+              padding: "5em",
             }}
             src={tetris}
             alt="tetris"
           />
 
-          <div style={{ padding: "10em" }}>
+          <div style={{ padding: "5em" }}>
             <h1 style={{ color: "black", fontSize: "4vw" }}>
               <Link
                 style={{ color: "black", fontFamily: "EB Garamond" }}
@@ -117,7 +117,7 @@ class Home extends Component {
             backgroundColor: "#333333",
           }}
         >
-          <div style={{ padding: "10em" }}>
+          <div style={{ padding: "5em" }}>
             <h1 style={{ color: "white", fontSize: "4vw" }}>
               <Link
                 style={{ color: "white", fontFamily: "EB Garamond" }}
@@ -141,7 +141,7 @@ class Home extends Component {
           <img
             style={{
               width: "50vw",
-              padding: "10em",
+              padding: "5em",
             }}
             src={plane}
             alt="plane"
