@@ -24,7 +24,7 @@ class NavBar extends Component {
             <h1 style={{ fontFamily: "EB Garamond" }}>About</h1>
           </Button>
         </Link>
-        <Link to="/resume" style={{ textDecoration: "none" }}>
+        <Link to="../../Res.pdf" style={{ textDecoration: "none" }}>
           <Button color="primary">
             <h1 style={{ fontFamily: "EB Garamond" }}>Resume</h1>
           </Button>

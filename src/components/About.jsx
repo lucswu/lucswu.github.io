@@ -68,7 +68,7 @@ class About extends Component {
             <br />
             - ESE 3010 — Engineering Probability
             <br />
-            - MKTG 1010 — Introduction to Marketing
+            - MGMT 1010 — Introduction to Management
             <br />- BEPP 2500 — Managerial Economics
           </p>
         </div>
