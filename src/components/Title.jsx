@@ -22,7 +22,7 @@ export default function Title() {
 
   return (
     <React.Fragment>
-      <Typist>
+      <Typist avgTypingDelay={40}>
         <span
           style={{
             fontSize: "7vw",
