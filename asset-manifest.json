@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.b2eb249a.css",
-    "main.js": "/static/js/main.d26a0a1d.js",
+    "main.js": "/static/js/main.c597c28f.js",
     "static/js/787.5863b875.chunk.js": "/static/js/787.5863b875.chunk.js",
     "static/media/plane.jpg": "/static/media/plane.21657757dcc86b103e00.jpg",
-    "static/media/Res2.pdf": "/static/media/Res2.541b421b44e78158a50f.pdf",
+    "static/media/Res2.pdf": "/static/media/Res2.5a68ec657031e3147039.pdf",
     "static/media/penn.jpg": "/static/media/penn.ffb0cd609464782e9f46.jpg",
+    "static/media/candycrush.png": "/static/media/candycrush.d4b48863dea5d98a2304.png",
+    "static/media/website.png": "/static/media/website.92b6d4a6d21796ebafe1.png",
     "static/media/icon.png": "/static/media/icon.7d7187222105eabc74d2.png",
+    "static/media/minesweeper.png": "/static/media/minesweeper.72341ce1aacd7d34ca70.png",
     "static/media/tetris.png": "/static/media/tetris.8241ff5fb865107286df.png",
     "index.html": "/index.html",
     "static/media/Arrow-down.svg": "/static/media/Arrow-down.6722e7abac9e30b021bb4af79228949c.svg",
     "main.b2eb249a.css.map": "/static/css/main.b2eb249a.css.map",
-    "main.d26a0a1d.js.map": "/static/js/main.d26a0a1d.js.map",
+    "main.c597c28f.js.map": "/static/js/main.c597c28f.js.map",
     "787.5863b875.chunk.js.map": "/static/js/787.5863b875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2eb249a.css",
-    "static/js/main.d26a0a1d.js"
+    "static/js/main.c597c28f.js"
   ]
 }
