@@ -13,7 +13,9 @@ class Blog extends Component {
     return (
       <React.Fragment>
         <div style={{ ...SectionStyle, backgroundColor: "white" }}>
-          <h1>Blog</h1>
+          <h1>
+            This is the blog page, still a stub. Check back for updates soon!
+          </h1>
         </div>
       </React.Fragment>
     );

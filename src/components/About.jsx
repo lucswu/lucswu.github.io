@@ -25,7 +25,7 @@ class About extends Component {
             <h1 style={{ fontSize: "4vw" }}>About Me</h1>
             <p
               style={{
-                fontSize: "2vw",
+                fontSize: "1.75vw",
               }}
             >
               Hi! I'm Lucas, a freshman at the University of Pennsylvania
@@ -33,6 +33,12 @@ class About extends Component {
               aspiration to submatriculate in Mathematics. I'm interested in
               Quantitative Finance, particularly trading and software
               development, as well as C++ Development and Machine Learning.
+              <br />
+              <br />
+              In my free time, I like to play poker, read satire (favorites
+              include works by Kurt Vonnegut), and solve mathematical
+              brainteasers. I also enjoy tetris, minesweeper, and other puzzle
+              games.
             </p>
           </div>
           <img
