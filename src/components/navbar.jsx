@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button } from "@material-ui/core";
 import Stack from "@mui/material/Stack";
 import { Link } from "react-router-dom";
-import Res from "../Res2.pdf";
+import Res from "../Lucas_Wu_Resume.pdf";
 
 class NavBar extends Component {
   render() {
